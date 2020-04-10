@@ -18,7 +18,7 @@ The following information was retrieved:
 	<li>Server Port: <%= request.getServerPort()  %></li>
 	<li>Remote Address: <%= request.getRemoteAddr()  %></li>
 	<li>Remote Host: <%= request.getRemoteHost()  %></li>
-	<li>Browser Type:<%= request.getHeader("user-agent").indexOf("Firefox")  %> </li>
+	<li>Browser Type:<%= request.getHeader("user-agent")  %> </li>
 </ul>
 </body>
 </html>
